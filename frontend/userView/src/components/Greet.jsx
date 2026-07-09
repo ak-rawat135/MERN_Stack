@@ -1,3 +1,8 @@
+/*props are not mutatted 
+if it's passed you can 't change it 
+smjhe ki nahi smjhe
+
+*/
 // function Greet(props) {
 //     //direct way to grab with props
 // //   return (
@@ -18,6 +23,7 @@
 
 // }
 //confuesd with props this will be better understanding
+//  as you can i used thumb i just provided a default valuej to it
 function Greet({ message, name, emoji = "👍" }) {
   return (
     <>
